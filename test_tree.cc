@@ -143,7 +143,6 @@ TEST_CASE("node_at test") {                                     // this is a tes
     REQUIRE(node_at(t5, "L") == nullptr);
     REQUIRE(node_at(t5, "R") == nullptr);
 
-
     destroy_tree(t1);
     destroy_tree(t2);
     destroy_tree(t3);
